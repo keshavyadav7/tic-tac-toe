@@ -1,0 +1,102 @@
+*{
+    cursor:default;
+}
+body{
+    background-color: #1D3557;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+h1{
+    position:absolute;
+    top:20px;
+    color:#DCF2F1;
+}
+.container{
+    height:500px;
+    width: 500px;
+    background-color: #1D3557;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+    text-wrap:wrap; 
+    margin-top:30px;
+
+}
+.box{
+    background-color:#f1faeec9;
+    height:150px;
+    width:150px;
+    border-radius: 10px;
+    display :flex;
+    justify-content: center;
+    align-items:center;
+    font-size:80px;
+    color:rgba(0, 0, 0, 0.858);
+}
+.line{
+    display :flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+}
+.reset{
+    height:50px;
+    width:80px;
+    border-radius: 10px;
+    display :flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#dae2d8e5;
+}
+
+
+
+.newtab{
+    height:100px;
+    width:200px;
+    background-color: #1D3557;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+}
+.retry{
+    height:50px;
+    width:80px;
+    border-radius: 10px;
+    display :flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#ff00008e;
+    display:none;
+}
+.winner{
+    height:200px;
+    width:500px;
+    font-size: xxx-large;
+    border-radius: 10px;
+    color:brown;
+    display :flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#FF407D;
+    display:none;
+}
+.newgame{
+    height:50px;
+    width:140px;
+    border-radius: 10px;
+    display :flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#dae2d8e5;
+    display:none;
+}
+.box:hover{
+    background-color:#F1FAEE;
+}
